@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vkr.API", "Vkr.Api\Vkr.API.csproj", "{45F47F54-7D1A-4C85-B900-1BD749E71126}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vkr.Application", "Vkr.Application\Vkr.Application.csproj", "{8A6750F4-0F94-465E-9FD6-88A5E2D541DB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vkr.DataAccess", "Vkr.DataAccess\Vkr.DataAccess.csproj", "{160E2932-ACB6-4CFA-A51F-04F03516D66D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vkr.Domain", "Vkr.Domain\Vkr.Domain.csproj", "{3639DE9B-AD1E-4B21-8D1B-23F03771424C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vkr.FileStorage", "Vkr.FileStorage\Vkr.FileStorage.csproj", "{30221EFB-0505-4F6C-9FE9-187C249D0D1D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vkr.Infractructure", "Vkr.Infractructure\Vkr.Infractructure.csproj", "{8F0FFD1F-1FBC-4439-9F4D-B7DAD9175903}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45F47F54-7D1A-4C85-B900-1BD749E71126}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45F47F54-7D1A-4C85-B900-1BD749E71126}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45F47F54-7D1A-4C85-B900-1BD749E71126}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45F47F54-7D1A-4C85-B900-1BD749E71126}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A6750F4-0F94-465E-9FD6-88A5E2D541DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A6750F4-0F94-465E-9FD6-88A5E2D541DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A6750F4-0F94-465E-9FD6-88A5E2D541DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A6750F4-0F94-465E-9FD6-88A5E2D541DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{160E2932-ACB6-4CFA-A51F-04F03516D66D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{160E2932-ACB6-4CFA-A51F-04F03516D66D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{160E2932-ACB6-4CFA-A51F-04F03516D66D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{160E2932-ACB6-4CFA-A51F-04F03516D66D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3639DE9B-AD1E-4B21-8D1B-23F03771424C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3639DE9B-AD1E-4B21-8D1B-23F03771424C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3639DE9B-AD1E-4B21-8D1B-23F03771424C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3639DE9B-AD1E-4B21-8D1B-23F03771424C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30221EFB-0505-4F6C-9FE9-187C249D0D1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30221EFB-0505-4F6C-9FE9-187C249D0D1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30221EFB-0505-4F6C-9FE9-187C249D0D1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30221EFB-0505-4F6C-9FE9-187C249D0D1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F0FFD1F-1FBC-4439-9F4D-B7DAD9175903}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F0FFD1F-1FBC-4439-9F4D-B7DAD9175903}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F0FFD1F-1FBC-4439-9F4D-B7DAD9175903}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F0FFD1F-1FBC-4439-9F4D-B7DAD9175903}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A5C286F-6469-4088-AEE6-14FB380834E0}
+	EndGlobalSection
+EndGlobal

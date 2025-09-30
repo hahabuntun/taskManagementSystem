@@ -1,0 +1,28 @@
+
+.inner-shadow {
+    box-shadow: inset 10px 0 20px rgba(0, 0, 0, 0.3); /* Inner shadow */
+}
+
+.resize-icon:hover {
+background-color: #e0e0e0; /* Slightly darker background on hover */
+border-color: #999; /* Darker border on hover */
+}
+
+/* Highlight the left border on hover */
+.resizable-drawer-content {
+    border-left: 5px solid transparent; /* Default border color */
+    transition: border-color 0.2s ease-in-out; /* Smooth transition */
+  }
+  
+  .resizable-drawer-content:hover {
+    border-left: 5px solid #40a9ff; /* Highlight color on hover */
+  }
+  
+  /* Optional: Style for inner and outer shadows during resizing */
+  .inner-shadow {
+    box-shadow: inset -10px 0 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .outer-shadow {
+    box-shadow: 10px 0 20px rgba(0, 0, 0, 0.3);
+  }

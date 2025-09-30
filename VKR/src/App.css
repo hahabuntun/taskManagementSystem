@@ -1,0 +1,44 @@
+/* Styles for webkit browsers (Chrome, Safari) */
+#scrollableDiv::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+#scrollableDiv::-webkit-scrollbar-track {
+  background: #f0f0f0; /* Background of the scrollbar track */
+  border-radius: 10px; /* Rounded corners */
+}
+
+#scrollableDiv::-webkit-scrollbar-thumb {
+  background: #a0a0a0; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Rounded corners */
+}
+
+#scrollableDiv::-webkit-scrollbar-thumb:hover {
+  background: #888; /* Color of the scrollbar thumb on hover */
+}
+
+/* Styles for Firefox */
+#scrollableDiv {
+  scrollbar-width: thin; /* Makes the scrollbar thin */
+  scrollbar-color: #a0a0a0 #f0f0f0; /* thumb color and track color */
+}
+
+.ant-picker-calendar-mode-switch {
+  display: none;
+}
+
+/* .ant-typography {
+  font-size: 20px !important; 
+} */
+.board-column {
+  border: 1px solid #000000; /* Thin black border */
+  background: var(--ant-color-bg-container); /* Theme background */
+}
+.board-column:hover {
+  background: var(--ant-color-bg-hover); /* Theme hover background */
+}
+
+/* Override any Ant Design tooltip inner styles */
+.ant-tooltip-inner {
+  color: var(--ant-color-text) !important;
+}

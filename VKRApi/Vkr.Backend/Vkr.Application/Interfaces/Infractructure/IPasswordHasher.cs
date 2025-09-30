@@ -1,0 +1,8 @@
+﻿namespace Vkr.Application.Interfaces.Infractructure 
+{
+    public interface IPasswordHasher
+    {
+        string Generate(string password);
+        bool Verify(string password, string hashedPassword);
+    }
+}
