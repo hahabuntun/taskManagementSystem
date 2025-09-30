@@ -14,7 +14,8 @@
 - file attachment to tasks
 
 ## How to run this project
-- first you need to build frontend, for that go to VKR folder and run command `npm run build`
-- after that you need to go to VKRApi folder and run command `docker compose up` (takes around 2-4 minutes)
+- first you need to run `npm i` and `npm run build` in the VKR directory
+- after that you need to go to VKRApi directory and run command `docker compose up` (takes around 2-4 minutes)
+- login data can be found in file VKRApi\Vkr.Backend\Vkr.DataAccess\Configurations\WorkerConfigurations\WorkerConfiguration.cs, password is always admin for pre-existing users
 
 ## Origin - final project to get bachelor's degree
